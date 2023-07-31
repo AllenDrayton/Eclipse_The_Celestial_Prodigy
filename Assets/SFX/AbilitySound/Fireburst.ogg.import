@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Fireburst.ogg-fcb23e2f4ba4037f74542cc739cf308a.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/AbilitySound/Fireburst.ogg"
+dest_files=[ "res://.import/Fireburst.ogg-fcb23e2f4ba4037f74542cc739cf308a.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

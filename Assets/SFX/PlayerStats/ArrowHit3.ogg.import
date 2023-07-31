@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ArrowHit3.ogg-9259ee65ca32cf666178c6e912cd6166.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/ArrowHit3.ogg"
+dest_files=[ "res://.import/ArrowHit3.ogg-9259ee65ca32cf666178c6e912cd6166.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

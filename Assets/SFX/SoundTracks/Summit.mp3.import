@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Summit.mp3-f88a07f61a26edf7e3c9fd38469debf5.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/Summit.mp3"
+dest_files=[ "res://.import/Summit.mp3-f88a07f61a26edf7e3c9fd38469debf5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

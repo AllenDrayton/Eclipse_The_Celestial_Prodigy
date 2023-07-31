@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/IS4.ogg-01c0d0f06674698c6357c2d458d60f98.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/IS4.ogg"
+dest_files=[ "res://.import/IS4.ogg-01c0d0f06674698c6357c2d458d60f98.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

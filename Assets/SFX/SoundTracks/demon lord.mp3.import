@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/demon lord.mp3-c14d61a5d1d45bd1eeb9e500ca71aade.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/demon lord.mp3"
+dest_files=[ "res://.import/demon lord.mp3-c14d61a5d1d45bd1eeb9e500ca71aade.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

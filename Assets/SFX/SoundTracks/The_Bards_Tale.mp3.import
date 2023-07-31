@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The_Bards_Tale.mp3-891128267d232563ec661c2ced13a7c8.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/The_Bards_Tale.mp3"
+dest_files=[ "res://.import/The_Bards_Tale.mp3-891128267d232563ec661c2ced13a7c8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

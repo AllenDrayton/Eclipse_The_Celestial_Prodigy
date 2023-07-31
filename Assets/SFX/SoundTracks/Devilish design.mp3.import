@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Devilish design.mp3-9a6e2f1b0d5c82c7a1eacd8cdae6bac5.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/Devilish design.mp3"
+dest_files=[ "res://.import/Devilish design.mp3-9a6e2f1b0d5c82c7a1eacd8cdae6bac5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

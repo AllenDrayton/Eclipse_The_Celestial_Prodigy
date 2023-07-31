@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/normalscream5.ogg-2651702770f963431bfbb9e1aafed19d.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/normalscream5.ogg"
+dest_files=[ "res://.import/normalscream5.ogg-2651702770f963431bfbb9e1aafed19d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

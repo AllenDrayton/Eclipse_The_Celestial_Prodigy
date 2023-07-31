@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DragonRoar5.ogg-cddccb7ffa39704ca1b0b06db640c265.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Dragon/DragonRoar5.ogg"
+dest_files=[ "res://.import/DragonRoar5.ogg-cddccb7ffa39704ca1b0b06db640c265.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

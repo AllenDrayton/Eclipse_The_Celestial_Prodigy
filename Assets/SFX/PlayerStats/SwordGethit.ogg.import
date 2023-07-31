@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SwordGethit.ogg-f08774b4f8ea4e1808181b9228f07058.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/SwordGethit.ogg"
+dest_files=[ "res://.import/SwordGethit.ogg-f08774b4f8ea4e1808181b9228f07058.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

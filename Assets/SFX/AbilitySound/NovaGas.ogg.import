@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/NovaGas.ogg-8abc265db0b7f0a7d54b6113e082707f.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/AbilitySound/NovaGas.ogg"
+dest_files=[ "res://.import/NovaGas.ogg-8abc265db0b7f0a7d54b6113e082707f.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

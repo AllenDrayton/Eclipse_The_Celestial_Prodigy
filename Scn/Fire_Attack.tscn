@@ -1,0 +1,51 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Assets/Characters/Enemy/HellBeast/Attack2/Effects_Fire_0_15.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Characters/Enemy/HellBeast/Attack2/Effects_Fire_0_14.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Characters/Enemy/HellBeast/Attack2/Effects_Fire_0_16.png" type="Texture" id=3]
+[ext_resource path="res://Assets/Characters/Enemy/HellBeast/Attack2/Effects_Fire_0_13.png" type="Texture" id=4]
+[ext_resource path="res://Scripts/Fire_Attack.gd" type="Script" id=5]
+[ext_resource path="res://Assets/SFX/AbilitySound/Fireball.ogg" type="AudioStream" id=6]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 4 ), ExtResource( 2 ), ExtResource( 1 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "Burning",
+"speed": 10.0
+} ]
+
+[node name="Fire_Attack" type="RigidBody2D"]
+script = ExtResource( 5 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 0.8, 0.5 )
+frames = SubResource( 1 )
+animation = "Burning"
+frame = 3
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -18.75, 4.76837e-07 )
+scale = Vector2( 3.75, 1.25 )
+polygon = PoolVector2Array( 0, -10, 10, 0, 0, 10 )
+disabled = true
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+
+[node name="Fire_Attack_lifetime" type="Timer" parent="."]
+one_shot = true
+
+[node name="Fire_Attack_Area" type="Area2D" parent="." groups=["HellBeast_Damager"]]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Fire_Attack_Area"]
+position = Vector2( 5.0625, 9.53674e-07 )
+scale = Vector2( 2.6875, 1.25 )
+polygon = PoolVector2Array( 0, -10, 10, 0, 0, 10 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 6 )
+volume_db = -15.0
+
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+[connection signal="timeout" from="Fire_Attack_lifetime" to="." method="_on_Fire_Attack_lifetime_timeout"]
+[connection signal="area_entered" from="Fire_Attack_Area" to="." method="_on_Fire_Attack_Area_area_entered"]

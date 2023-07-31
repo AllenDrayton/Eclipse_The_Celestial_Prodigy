@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/LaugnandTaunt2.ogg-f608b6ed4a87404b64c8db7cd4b253eb.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/LaugnandTaunt2.ogg"
+dest_files=[ "res://.import/LaugnandTaunt2.ogg-f608b6ed4a87404b64c8db7cd4b253eb.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Shuffle2.ogg-0e8d0f74c5531bbe926390d82069b23c.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/Shuffle2.ogg"
+dest_files=[ "res://.import/Shuffle2.ogg-0e8d0f74c5531bbe926390d82069b23c.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

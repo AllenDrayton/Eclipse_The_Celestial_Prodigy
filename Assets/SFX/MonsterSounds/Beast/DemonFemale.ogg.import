@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DemonFemale.ogg-7e50bc8aa6c88c2ad6f8605e715874ed.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Beast/DemonFemale.ogg"
+dest_files=[ "res://.import/DemonFemale.ogg-7e50bc8aa6c88c2ad6f8605e715874ed.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

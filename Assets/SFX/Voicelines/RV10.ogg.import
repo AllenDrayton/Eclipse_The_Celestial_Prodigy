@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/RV10.ogg-e8c80a64cfcbcee566ca09d923252bdf.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/Voicelines/RV10.ogg"
+dest_files=[ "res://.import/RV10.ogg-e8c80a64cfcbcee566ca09d923252bdf.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

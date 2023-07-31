@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/David_Fesliyan_-_Tears_Wont_Stop___EMOTIONAL_MUSIC(256k).mp3-828dc20654fdefd05020b89cb9bd194c.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/David_Fesliyan_-_Tears_Wont_Stop___EMOTIONAL_MUSIC(256k).mp3"
+dest_files=[ "res://.import/David_Fesliyan_-_Tears_Wont_Stop___EMOTIONAL_MUSIC(256k).mp3-828dc20654fdefd05020b89cb9bd194c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

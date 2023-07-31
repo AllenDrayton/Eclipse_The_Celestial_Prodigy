@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ahrimoan4.ogg-7cbbe820ece5ecf9ea6e871024f8e647.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/ahrimoan4.ogg"
+dest_files=[ "res://.import/ahrimoan4.ogg-7cbbe820ece5ecf9ea6e871024f8e647.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

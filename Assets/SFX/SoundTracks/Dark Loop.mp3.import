@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Dark Loop.mp3-d8fcbc4901696956a0737b9bca0d241f.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/Dark Loop.mp3"
+dest_files=[ "res://.import/Dark Loop.mp3-d8fcbc4901696956a0737b9bca0d241f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

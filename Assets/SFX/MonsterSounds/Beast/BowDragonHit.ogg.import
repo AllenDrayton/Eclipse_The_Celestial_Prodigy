@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BowDragonHit.ogg-e5bea1a6e5f0f8e4161aa27f77f90643.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Beast/BowDragonHit.ogg"
+dest_files=[ "res://.import/BowDragonHit.ogg-e5bea1a6e5f0f8e4161aa27f77f90643.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

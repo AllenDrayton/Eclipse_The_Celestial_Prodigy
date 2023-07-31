@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ahriscream1.ogg-8756377a263c85f116697d83cffcd497.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/ahriscream1.ogg"
+dest_files=[ "res://.import/ahriscream1.ogg-8756377a263c85f116697d83cffcd497.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

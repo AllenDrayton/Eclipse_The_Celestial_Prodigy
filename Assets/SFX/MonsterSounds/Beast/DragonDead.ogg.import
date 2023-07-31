@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DragonDead.ogg-d0841c39862186ab9de952af365b3fab.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Beast/DragonDead.ogg"
+dest_files=[ "res://.import/DragonDead.ogg-d0841c39862186ab9de952af365b3fab.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

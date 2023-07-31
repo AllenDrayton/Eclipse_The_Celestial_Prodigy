@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Creepy.ogg-8866713438c87e36259fe3dbc851a5f8.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Beast/Creepy.ogg"
+dest_files=[ "res://.import/Creepy.ogg-8866713438c87e36259fe3dbc851a5f8.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

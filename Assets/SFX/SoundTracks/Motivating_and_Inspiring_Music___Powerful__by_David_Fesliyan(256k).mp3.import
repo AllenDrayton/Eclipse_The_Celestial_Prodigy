@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Motivating_and_Inspiring_Music___Powerful__by_David_Fesliyan(256k).mp3-99a3fa93738c0e8c0576cae9c85f43ca.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/Motivating_and_Inspiring_Music___Powerful__by_David_Fesliyan(256k).mp3"
+dest_files=[ "res://.import/Motivating_and_Inspiring_Music___Powerful__by_David_Fesliyan(256k).mp3-99a3fa93738c0e8c0576cae9c85f43ca.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

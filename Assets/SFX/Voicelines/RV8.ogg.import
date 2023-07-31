@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/RV8.ogg-28480b59610590acc9f00497b0ebe667.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/Voicelines/RV8.ogg"
+dest_files=[ "res://.import/RV8.ogg-28480b59610590acc9f00497b0ebe667.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

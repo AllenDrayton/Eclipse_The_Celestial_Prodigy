@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ArrowRelease.ogg-6bfb437c1fd48c70b0575fe28e5c2250.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/PlayerStats/ArrowRelease.ogg"
+dest_files=[ "res://.import/ArrowRelease.ogg-6bfb437c1fd48c70b0575fe28e5c2250.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

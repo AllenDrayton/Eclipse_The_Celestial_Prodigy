@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DeadSong.ogg-a1a0226a0a9ab6c395746fd6ee6cc2e9.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Beast/DeadSong.ogg"
+dest_files=[ "res://.import/DeadSong.ogg-a1a0226a0a9ab6c395746fd6ee6cc2e9.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

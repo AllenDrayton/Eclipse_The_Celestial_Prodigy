@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Smoke.ogg-710663de4ef27e6a86a439e3c85d0964.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/AbilitySound/Smoke.ogg"
+dest_files=[ "res://.import/Smoke.ogg-710663de4ef27e6a86a439e3c85d0964.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

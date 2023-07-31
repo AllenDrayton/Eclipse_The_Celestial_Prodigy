@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DragonAttack.ogg-f724fae6ed268abb82747e11e752ad2a.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/MonsterSounds/Beast/DragonAttack.ogg"
+dest_files=[ "res://.import/DragonAttack.ogg-f724fae6ed268abb82747e11e752ad2a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

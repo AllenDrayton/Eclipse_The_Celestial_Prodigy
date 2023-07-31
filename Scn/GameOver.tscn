@@ -1,0 +1,100 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://Fonts/Ubuntu-Bold.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Assets/GUI/Menus/Slum.jpg" type="Texture" id=2]
+[ext_resource path="res://Scripts/GameOver.gd" type="Script" id=3]
+[ext_resource path="res://Fonts/Ubuntu-Medium.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Assets/GUI/Menus2/SideCutSpaceRed.png" type="Texture" id=5]
+[ext_resource path="res://Assets/GUI/Menus2/SideCutSpacePurple.png" type="Texture" id=6]
+[ext_resource path="res://Assets/GUI/Menus2/SideCutSpaceOrange.png" type="Texture" id=7]
+[ext_resource path="res://Assets/GUI/Menus2/SideCutSpacePurple - Copy.png" type="Texture" id=8]
+[ext_resource path="res://Assets/GUI/Menus2/SideCutSpaceOrange - Copy.png" type="Texture" id=9]
+[ext_resource path="res://Assets/GUI/Menus2/SideCutSpaceRed - Copy.png" type="Texture" id=10]
+[ext_resource path="res://Assets/SFX/SoundTracks/Devilish design.mp3" type="AudioStream" id=11]
+
+[sub_resource type="DynamicFont" id=1]
+size = 80
+outline_size = 1
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+outline_size = 1
+use_filter = true
+font_data = ExtResource( 4 )
+
+[node name="GameOver" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 440.0
+margin_top = 200.0
+margin_right = 1117.0
+margin_bottom = 291.0
+custom_colors/font_color = Color( 0.945098, 0.172549, 0.172549, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Curtains Close Up"
+align = 1
+valign = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 600.0
+margin_top = 380.0
+margin_right = 950.0
+margin_bottom = 544.0
+
+[node name="Retry" type="TextureButton" parent="VBoxContainer"]
+margin_right = 350.0
+margin_bottom = 80.0
+rect_min_size = Vector2( 350, 80 )
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 6 )
+texture_focused = ExtResource( 7 )
+expand = true
+
+[node name="Label" type="Label" parent="VBoxContainer/Retry"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0.00784314, 0.00784314, 0.00784314, 1 )
+custom_colors/font_outline_modulate = Color( 0.572549, 0.964706, 0.94902, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Redeem Yourself"
+align = 1
+valign = 1
+
+[node name="MainMenu" type="TextureButton" parent="VBoxContainer"]
+margin_top = 84.0
+margin_right = 350.0
+margin_bottom = 164.0
+rect_min_size = Vector2( 350, 80 )
+texture_normal = ExtResource( 10 )
+texture_hover = ExtResource( 8 )
+texture_focused = ExtResource( 9 )
+expand = true
+
+[node name="Label" type="Label" parent="VBoxContainer/MainMenu"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0.00784314, 0.00784314, 0.00784314, 1 )
+custom_colors/font_outline_modulate = Color( 0.572549, 0.964706, 0.94902, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "Main Menu"
+align = 1
+valign = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/Retry" to="." method="_on_Retry_pressed"]
+[connection signal="pressed" from="VBoxContainer/MainMenu" to="." method="_on_MainMenu_pressed"]

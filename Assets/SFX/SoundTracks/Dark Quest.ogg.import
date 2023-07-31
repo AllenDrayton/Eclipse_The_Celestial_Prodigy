@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Dark Quest.ogg-c9fcdb1588f94762509dc7495059f1c5.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/Dark Quest.ogg"
+dest_files=[ "res://.import/Dark Quest.ogg-c9fcdb1588f94762509dc7495059f1c5.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

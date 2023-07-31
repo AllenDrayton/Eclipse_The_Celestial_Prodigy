@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Fireburning.ogg-32b286433ba0f7ec69cdbfaa4dcfad04.oggstr"
+
+[deps]
+
+source_file="res://Assets/SFX/AbilitySound/Fireburning.ogg"
+dest_files=[ "res://.import/Fireburning.ogg-32b286433ba0f7ec69cdbfaa4dcfad04.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

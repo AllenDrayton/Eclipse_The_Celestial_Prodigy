@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/_Blood_and_Wine_OST_-_Lady_Of_The_Lake_(EXTENDED)(256k).mp3-8f5cf63013d2d6c5a87a0f12a8a29a20.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/SoundTracks/_Blood_and_Wine_OST_-_Lady_Of_The_Lake_(EXTENDED)(256k).mp3"
+dest_files=[ "res://.import/_Blood_and_Wine_OST_-_Lady_Of_The_Lake_(EXTENDED)(256k).mp3-8f5cf63013d2d6c5a87a0f12a8a29a20.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
